@@ -14,5 +14,5 @@
 
 ## UML
 
-![Command](./resources/uml/command/Command.svg "Command")
-<img src="./resources/uml/command/Command.svg">
+![Command](/src/main/resources/uml/command/Command.svg)
+<img src="/src/main/resources/uml/command/Command.svg">

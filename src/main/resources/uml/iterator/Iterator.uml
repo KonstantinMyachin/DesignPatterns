@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>behavioral.iterator.AlternatingDinerMenuIterator</OriginalElement>
+  <nodes>
+    <node x="351.0" y="353.0">behavioral.iterator.Menu</node>
+    <node x="327.0" y="454.0">behavioral.iterator.DinerMenu</node>
+    <node x="0.0" y="476.0">behavioral.iterator.CafeMenu</node>
+    <node x="0.0" y="0.0">java.util.Iterator</node>
+    <node x="654.0" y="476.0">behavioral.iterator.PancakeHouseMenu</node>
+    <node x="378.0" y="684.0">behavioral.iterator.MenuItem</node>
+    <node x="0.0" y="684.0">behavioral.iterator.Waitress</node>
+    <node x="9.0" y="167.0">behavioral.iterator.AlternatingDinerMenuIterator</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="behavioral.iterator.PancakeHouseMenu" target="behavioral.iterator.Menu">
+      <point x="0.0" y="-70.5" />
+      <point x="807.5" y="429.0" />
+      <point x="566.8333333333333" y="429.0" />
+      <point x="86.33333333333326" y="25.5" />
+    </edge>
+    <edge source="behavioral.iterator.AlternatingDinerMenuIterator" target="java.util.Iterator">
+      <point x="0.0" y="-70.5" />
+      <point x="0.0" y="58.5" />
+    </edge>
+    <edge source="behavioral.iterator.DinerMenu" target="behavioral.iterator.Menu">
+      <point x="0.0" y="-92.5" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="behavioral.iterator.CafeMenu" target="behavioral.iterator.Menu">
+      <point x="0.0" y="-70.5" />
+      <point x="153.5" y="429.0" />
+      <point x="394.1666666666667" y="429.0" />
+      <point x="-86.33333333333331" y="25.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="317.0" y="649.0" />
+  <SelectedNodes>
+    <node>java.util.Iterator</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

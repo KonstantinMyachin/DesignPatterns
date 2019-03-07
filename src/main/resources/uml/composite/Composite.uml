@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>structural.composite.MenuComponent</OriginalElement>
+  <nodes>
+    <node x="349.0" y="255.0">structural.composite.MenuItem</node>
+    <node x="0.0" y="255.0">structural.composite.Menu</node>
+    <node x="0.0" y="551.0">structural.composite.Waitress</node>
+    <node x="211.5" y="0.0">structural.composite.MenuComponent</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="structural.composite.MenuItem" target="structural.composite.MenuComponent">
+      <point x="0.0" y="-125.5" />
+      <point x="496.5" y="230.0" />
+      <point x="390.0" y="230.0" />
+      <point x="59.5" y="102.5" />
+    </edge>
+    <edge source="structural.composite.Menu" target="structural.composite.MenuComponent">
+      <point x="0.0" y="-125.5" />
+      <point x="164.5" y="230.0" />
+      <point x="271.0" y="230.0" />
+      <point x="-59.5" y="102.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="71.5" y="14.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

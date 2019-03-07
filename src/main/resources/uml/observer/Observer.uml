@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>behavioral.observer.weather.StatisticsDisplay</OriginalElement>
+  <nodes>
+    <node x="21.5" y="0.0">behavioral.observer.weather.Subject</node>
+    <node x="279.0" y="637.0">behavioral.observer.weather.ForecastDisplay</node>
+    <node x="523.0" y="637.0">behavioral.observer.weather.CurrentConditionsDisplay</node>
+    <node x="767.0" y="615.0">behavioral.observer.weather.StatisticsDisplay</node>
+    <node x="0.0" y="637.0">behavioral.observer.weather.HeatIndexDisplay</node>
+    <node x="0.0" y="145.0">behavioral.observer.weather.WeatherData</node>
+    <node x="282.5" y="484.0">behavioral.observer.weather.DisplayElement</node>
+    <node x="551.0" y="484.0">behavioral.observer.weather.Observer</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="behavioral.observer.weather.HeatIndexDisplay" target="behavioral.observer.weather.DisplayElement">
+      <point x="-64.75" y="-70.0" />
+      <point x="64.75" y="575.0" />
+      <point x="300.0" y="575.0" />
+      <point x="-52.5" y="25.5" />
+    </edge>
+    <edge source="behavioral.observer.weather.CurrentConditionsDisplay" target="behavioral.observer.weather.Observer">
+      <point x="56.0" y="-70.0" />
+      <point x="28.0" y="25.5" />
+    </edge>
+    <edge source="behavioral.observer.weather.WeatherData" target="behavioral.observer.weather.Subject">
+      <point x="0.0" y="-147.0" />
+      <point x="0.0" y="47.5" />
+    </edge>
+    <edge source="behavioral.observer.weather.StatisticsDisplay" target="behavioral.observer.weather.Observer">
+      <point x="56.0" y="-92.0" />
+      <point x="935.0" y="555.0" />
+      <point x="747.0" y="555.0" />
+      <point x="84.0" y="25.5" />
+    </edge>
+    <edge source="behavioral.observer.weather.StatisticsDisplay" target="behavioral.observer.weather.DisplayElement">
+      <point x="-56.0" y="-92.0" />
+      <point x="823.0" y="565.0" />
+      <point x="405.0" y="565.0" />
+      <point x="52.5" y="25.5" />
+    </edge>
+    <edge source="behavioral.observer.weather.HeatIndexDisplay" target="behavioral.observer.weather.Observer">
+      <point x="64.75" y="-70.0" />
+      <point x="194.25" y="585.0" />
+      <point x="579.0" y="585.0" />
+      <point x="-84.0" y="25.5" />
+    </edge>
+    <edge source="behavioral.observer.weather.CurrentConditionsDisplay" target="behavioral.observer.weather.DisplayElement">
+      <point x="-56.0" y="-70.0" />
+      <point x="579.0" y="575.0" />
+      <point x="370.0" y="575.0" />
+      <point x="17.5" y="25.5" />
+    </edge>
+    <edge source="behavioral.observer.weather.ForecastDisplay" target="behavioral.observer.weather.DisplayElement">
+      <point x="-56.0" y="-70.0" />
+      <point x="-17.5" y="25.5" />
+    </edge>
+    <edge source="behavioral.observer.weather.ForecastDisplay" target="behavioral.observer.weather.Observer">
+      <point x="56.0" y="-70.0" />
+      <point x="447.0" y="595.0" />
+      <point x="635.0" y="595.0" />
+      <point x="-28.0" y="25.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="495.5" y="399.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

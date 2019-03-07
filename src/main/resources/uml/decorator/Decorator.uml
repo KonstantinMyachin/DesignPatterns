@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>structural.decorator.starbuzz.Mocha</OriginalElement>
+  <nodes>
+    <node x="207.99999999999994" y="247.0">structural.decorator.starbuzz.Soy</node>
+    <node x="520.0" y="146.0">structural.decorator.starbuzz.DarkRoast</node>
+    <node x="997.0" y="146.0">structural.decorator.starbuzz.HouseBlend</node>
+    <node x="624.0" y="247.0">structural.decorator.starbuzz.Mocha</node>
+    <node x="838.0" y="146.0">structural.decorator.starbuzz.Espresso</node>
+    <node x="312.0" y="146.0">structural.decorator.starbuzz.CondimentDecorator</node>
+    <node x="0.0" y="247.0">structural.decorator.starbuzz.Milk</node>
+    <node x="415.99999999999994" y="247.0">structural.decorator.starbuzz.Whip</node>
+    <node x="654.5" y="0.0">structural.decorator.starbuzz.Beverage</node>
+    <node x="679.0" y="146.0">structural.decorator.starbuzz.Decaf</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="structural.decorator.starbuzz.CondimentDecorator" target="structural.decorator.starbuzz.Beverage">
+      <point x="0.0" y="-25.5" />
+      <point x="406.0" y="116.0" />
+      <point x="673.3" y="116.0" />
+      <point x="-75.20000000000005" y="48.0" />
+    </edge>
+    <edge source="structural.decorator.starbuzz.Milk" target="structural.decorator.starbuzz.CondimentDecorator">
+      <point x="0.0" y="-48.0" />
+      <point x="94.0" y="217.0" />
+      <point x="335.5" y="217.0" />
+      <point x="-70.5" y="25.5" />
+    </edge>
+    <edge source="structural.decorator.starbuzz.Decaf" target="structural.decorator.starbuzz.Beverage">
+      <point x="0.0" y="-25.5" />
+      <point x="0.0" y="48.0" />
+    </edge>
+    <edge source="structural.decorator.starbuzz.Espresso" target="structural.decorator.starbuzz.Beverage">
+      <point x="0.0" y="-25.5" />
+      <point x="907.5" y="126.0" />
+      <point x="786.0999999999999" y="126.0" />
+      <point x="37.59999999999991" y="48.0" />
+    </edge>
+    <edge source="structural.decorator.starbuzz.DarkRoast" target="structural.decorator.starbuzz.Beverage">
+      <point x="0.0" y="-25.5" />
+      <point x="589.5" y="126.0" />
+      <point x="710.8999999999999" y="126.0" />
+      <point x="-37.60000000000002" y="48.0" />
+    </edge>
+    <edge source="structural.decorator.starbuzz.Whip" target="structural.decorator.starbuzz.CondimentDecorator">
+      <point x="0.0" y="-48.0" />
+      <point x="509.99999999999994" y="227.0" />
+      <point x="429.5" y="227.0" />
+      <point x="23.5" y="25.5" />
+    </edge>
+    <edge source="structural.decorator.starbuzz.HouseBlend" target="structural.decorator.starbuzz.Beverage">
+      <point x="0.0" y="-25.5" />
+      <point x="1066.5" y="116.0" />
+      <point x="823.6999999999998" y="116.0" />
+      <point x="75.19999999999993" y="48.0" />
+    </edge>
+    <edge source="structural.decorator.starbuzz.Mocha" target="structural.decorator.starbuzz.CondimentDecorator">
+      <point x="0.0" y="-48.0" />
+      <point x="718.0" y="217.0" />
+      <point x="476.5" y="217.0" />
+      <point x="70.5" y="25.5" />
+    </edge>
+    <edge source="structural.decorator.starbuzz.Soy" target="structural.decorator.starbuzz.CondimentDecorator">
+      <point x="5.6843418860808015E-14" y="-48.0" />
+      <point x="302.0" y="227.0" />
+      <point x="382.5" y="227.0" />
+      <point x="-23.5" y="25.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="601.5" y="93.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

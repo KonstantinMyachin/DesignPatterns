@@ -18,4 +18,4 @@
 
 ## UML
 
-![State](https://github.com/KonstantinMyachin/DesignPatterns/tree/master/src/main/resources/uml/state/State.svg "State")
+<img src="/src/main/resources/uml/state/State.svg">

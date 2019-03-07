@@ -16,4 +16,4 @@
 
 ## UML
 
-![Abstract Factory](https://github.com/KonstantinMyachin/DesignPatterns/tree/master/src/main/resources/uml/abstractFactory/AbstractFactory.svg "Abstract Factory")
+<img src="/src/main/resources/uml/abstractfactory/AbstractFactory.svg">

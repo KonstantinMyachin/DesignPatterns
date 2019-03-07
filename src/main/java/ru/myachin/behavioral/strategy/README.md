@@ -17,4 +17,4 @@
 
 ## UML
 
-![Strategy](https://github.com/KonstantinMyachin/DesignPatterns/tree/master/src/main/resources/uml/strategy/Strategy.svg "Strategy")
+<img src="/src/main/resources/uml/strategy/Strategy.svg">

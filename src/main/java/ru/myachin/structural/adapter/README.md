@@ -15,4 +15,4 @@
 
 ## UML
 
-![Adapter](https://github.com/KonstantinMyachin/DesignPatterns/tree/master/src/main/resources/uml/adapter/Adapter.svg "Adapter")
+<img src="/src/main/resources/uml/adapter/Adapter.svg">

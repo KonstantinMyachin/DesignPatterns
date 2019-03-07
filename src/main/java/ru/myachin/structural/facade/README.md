@@ -14,4 +14,4 @@
 
 ## UML
 
-![Facade](https://github.com/KonstantinMyachin/DesignPatterns/tree/master/src/main/resources/uml/facade/Facade.svg "Facade")
+<img src="/src/main/resources/uml/facade/Facade.svg">

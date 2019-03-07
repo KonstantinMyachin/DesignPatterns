@@ -15,4 +15,4 @@
 
 ## UML
 
-![Observer](https://github.com/KonstantinMyachin/DesignPatterns/tree/master/src/main/resources/uml/observer/Observer.svg "Observer")
+<img src="/src/main/resources/uml/observer/Observer.svg">

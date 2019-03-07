@@ -20,4 +20,4 @@
 
 ## UML
 
-![Proxy](https://github.com/KonstantinMyachin/DesignPatterns/tree/master/src/main/resources/uml/proxy/Proxy.svg "Proxy")
+<img src="/src/main/resources/uml/proxy/Proxy.svg">

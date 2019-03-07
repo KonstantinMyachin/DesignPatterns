@@ -13,4 +13,4 @@
 
 ## UML
 
-![Factory Method](https://github.com/KonstantinMyachin/DesignPatterns/tree/master/src/main/resources/uml/factorymethod/FactoryMethod.svg "Factory Method")
+<img src="/src/main/resources/uml/factorymethod/FactoryMethod.svg">

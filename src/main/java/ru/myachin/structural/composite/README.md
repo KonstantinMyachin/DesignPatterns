@@ -13,4 +13,4 @@
 
 ## UML
 
-![Composite](https://github.com/KonstantinMyachin/DesignPatterns/tree/master/src/main/resources/uml/composite/Composite.svg "Composite")
+<img src="/src/main/resources/uml/composite/Composite.svg">

@@ -15,4 +15,4 @@
 
 ## UML
 
-![Template Method](https://github.com/KonstantinMyachin/DesignPatterns/tree/master/src/main/resources/uml/templatemethod/TemplateMethod.svg "Template Method")
+<img src="/src/main/resources/uml/templatemethod/TemplateMethod.svg">

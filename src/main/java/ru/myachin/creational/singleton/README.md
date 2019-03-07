@@ -15,4 +15,4 @@
 
 ## UML
 
-![Singleton](https://github.com/KonstantinMyachin/DesignPatterns/tree/master/src/main/resources/uml/singleton/Singleton.svg "Singleton")
+<img src="/src/main/resources/uml/singleton/Singleton.svg">

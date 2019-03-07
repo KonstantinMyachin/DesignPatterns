@@ -16,4 +16,4 @@
 
 ## UML
 
-![Iterator](https://github.com/KonstantinMyachin/DesignPatterns/tree/master/src/main/resources/uml/iterator/Iterator.svg "Iterator")
+<img src="/src/main/resources/uml/iterator/Iterator.svg">

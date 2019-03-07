@@ -14,4 +14,4 @@
 
 ## UML
 
-![Decorator](https://github.com/KonstantinMyachin/DesignPatterns/tree/master/src/main/resources/uml/decorator/Decorator.svg "Decorator")
+<img src="/src/main/resources/uml/decorator/Decorator.svg">

@@ -14,5 +14,4 @@
 
 ## UML
 
-![Command](/src/main/resources/uml/command/Command.svg)
 <img src="/src/main/resources/uml/command/Command.svg">

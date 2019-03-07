@@ -14,4 +14,5 @@
 
 ## UML
 
-![Command](https://github.com/KonstantinMyachin/DesignPatterns/tree/master/src/main/resources/uml/command/Command.svg "Command")
+![Command](./resources/uml/command/Command.svg "Command")
+<img src="./resources/uml/command/Command.svg">

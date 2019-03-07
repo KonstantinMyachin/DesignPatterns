@@ -1,30 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Diagram>
   <ID>JAVA</ID>
-  <OriginalElement>structural.composite.MenuComponent</OriginalElement>
+  <OriginalElement>ru.myachin.structural.composite.MenuItem</OriginalElement>
   <nodes>
-    <node x="349.0" y="255.0">structural.composite.MenuItem</node>
-    <node x="0.0" y="255.0">structural.composite.Menu</node>
-    <node x="0.0" y="551.0">structural.composite.Waitress</node>
-    <node x="211.5" y="0.0">structural.composite.MenuComponent</node>
+    <node x="0.0" y="255.0">ru.myachin.structural.composite.MenuItem</node>
+    <node x="0.0" y="551.0">ru.myachin.structural.composite.Waitress</node>
+    <node x="194.5" y="0.0">ru.myachin.structural.composite.MenuComponent</node>
+    <node x="315.0" y="255.0">ru.myachin.structural.composite.Menu</node>
   </nodes>
   <notes />
   <edges>
-    <edge source="structural.composite.MenuItem" target="structural.composite.MenuComponent">
+    <edge source="ru.myachin.structural.composite.MenuItem" target="ru.myachin.structural.composite.MenuComponent">
       <point x="0.0" y="-125.5" />
-      <point x="496.5" y="230.0" />
-      <point x="390.0" y="230.0" />
-      <point x="59.5" y="102.5" />
-    </edge>
-    <edge source="structural.composite.Menu" target="structural.composite.MenuComponent">
-      <point x="0.0" y="-125.5" />
-      <point x="164.5" y="230.0" />
-      <point x="271.0" y="230.0" />
+      <point x="147.5" y="230.0" />
+      <point x="254.0" y="230.0" />
       <point x="-59.5" y="102.5" />
     </edge>
+    <edge source="ru.myachin.structural.composite.Menu" target="ru.myachin.structural.composite.MenuComponent">
+      <point x="0.0" y="-125.5" />
+      <point x="479.5" y="230.0" />
+      <point x="373.0" y="230.0" />
+      <point x="59.5" y="102.5" />
+    </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="71.5" y="14.5" />
-  <SelectedNodes />
+  <settings layout="Hierarchic Group" zoom="0.937125748502994" x="322.0" y="349.0" />
+  <SelectedNodes>
+    <node>ru.myachin.structural.composite.MenuItem</node>
+    <node>ru.myachin.structural.composite.Waitress</node>
+    <node>ru.myachin.structural.composite.MenuComponent</node>
+    <node>ru.myachin.structural.composite.Menu</node>
+  </SelectedNodes>
   <Categories>
     <Category>Fields</Category>
     <Category>Constructors</Category>

@@ -1,23 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Diagram>
   <ID>JAVA</ID>
-  <OriginalElement>structural.facade.Amplifier</OriginalElement>
+  <OriginalElement>ru.myachin.structural.facade.PopcornPopper</OriginalElement>
   <nodes>
-    <node x="695.0" y="0.0">structural.facade.DvdPlayer</node>
-    <node x="246.0" y="406.0">structural.facade.CdPlayer</node>
-    <node x="0.0" y="406.0">structural.facade.Amplifier</node>
-    <node x="239.0" y="790.0">structural.facade.TheaterLights</node>
-    <node x="0.0" y="0.0">structural.facade.HomeTheaterFacade</node>
-    <node x="504.0" y="406.0">structural.facade.Tuner</node>
-    <node x="467.0" y="790.0">structural.facade.Screen</node>
-    <node x="0.0" y="790.0">structural.facade.PopcornPopper</node>
-    <node x="759.0" y="406.0">structural.facade.Projector</node>
+    <node x="0.0" y="790.0">ru.myachin.structural.facade.PopcornPopper</node>
+    <node x="759.0" y="406.0">ru.myachin.structural.facade.Projector</node>
+    <node x="246.0" y="406.0">ru.myachin.structural.facade.CdPlayer</node>
+    <node x="504.0" y="406.0">ru.myachin.structural.facade.Tuner</node>
+    <node x="239.0" y="790.0">ru.myachin.structural.facade.TheaterLights</node>
+    <node x="467.0" y="790.0">ru.myachin.structural.facade.Screen</node>
+    <node x="0.0" y="0.0">ru.myachin.structural.facade.HomeTheaterFacade</node>
+    <node x="0.0" y="406.0">ru.myachin.structural.facade.Amplifier</node>
+    <node x="695.0" y="0.0">ru.myachin.structural.facade.DvdPlayer</node>
   </nodes>
   <notes />
   <edges />
-  <settings layout="Hierarchic Group" zoom="1.0" x="333.0" y="254.5" />
+  <settings layout="Hierarchic Group" zoom="1.0" x="335.5" y="14.5" />
   <SelectedNodes>
-    <node>structural.facade.Tuner</node>
+    <node>ru.myachin.structural.facade.PopcornPopper</node>
+    <node>ru.myachin.structural.facade.Projector</node>
+    <node>ru.myachin.structural.facade.CdPlayer</node>
+    <node>ru.myachin.structural.facade.Tuner</node>
+    <node>ru.myachin.structural.facade.TheaterLights</node>
+    <node>ru.myachin.structural.facade.Screen</node>
+    <node>ru.myachin.structural.facade.HomeTheaterFacade</node>
+    <node>ru.myachin.structural.facade.Amplifier</node>
+    <node>ru.myachin.structural.facade.DvdPlayer</node>
   </SelectedNodes>
   <Categories>
     <Category>Fields</Category>

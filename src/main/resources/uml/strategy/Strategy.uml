@@ -1,99 +1,116 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Diagram>
   <ID>JAVA</ID>
-  <OriginalElement>behavioral.strategy.RedHeadDuck</OriginalElement>
+  <OriginalElement>ru.myachin.behavioral.strategy.ModelDuck</OriginalElement>
   <nodes>
-    <node x="155.5" y="549.0">behavioral.strategy.FlyBehavior</node>
-    <node x="155.0" y="453.0">behavioral.strategy.Quack</node>
-    <node x="480.0" y="256.0">behavioral.strategy.DecoyDuck</node>
-    <node x="465.0" y="453.0">behavioral.strategy.MuteQuack</node>
-    <node x="251.0" y="0.0">behavioral.strategy.Duck</node>
-    <node x="141.0" y="650.0">behavioral.strategy.FlyRocketPowered</node>
-    <node x="320.0" y="256.0">behavioral.strategy.MallardDuck</node>
-    <node x="0.0" y="650.0">behavioral.strategy.FlyWithWings</node>
-    <node x="0.0" y="453.0">behavioral.strategy.Squeak</node>
-    <node x="160.0" y="256.0">behavioral.strategy.ModelDuck</node>
-    <node x="310.0" y="453.0">behavioral.strategy.FakeQuack</node>
-    <node x="306.0" y="650.0">behavioral.strategy.FlyNoWay</node>
-    <node x="640.0" y="256.0">behavioral.strategy.RedHeadDuck</node>
-    <node x="0.0" y="256.0">behavioral.strategy.RubberDuck</node>
-    <node x="232.5" y="352.0">behavioral.strategy.QuackBehavior</node>
+    <node x="136.0" y="696.0">ru.myachin.behavioral.strategy.FlyRocketPowered</node>
+    <node x="0.0" y="279.0">ru.myachin.behavioral.strategy.ModelDuck</node>
+    <node x="301.0" y="696.0">ru.myachin.behavioral.strategy.FlyWithWings</node>
+    <node x="321.0" y="279.0">ru.myachin.behavioral.strategy.MallardDuck</node>
+    <node x="255.5" y="0.0">ru.myachin.behavioral.strategy.Duck</node>
+    <node x="155.0" y="499.0">ru.myachin.behavioral.strategy.MuteQuack</node>
+    <node x="161.0" y="279.0">ru.myachin.behavioral.strategy.DecoyDuck</node>
+    <node x="488.0" y="279.0">ru.myachin.behavioral.strategy.RedHeadDuck</node>
+    <node x="150.5" y="595.0">ru.myachin.behavioral.strategy.FlyBehavior</node>
+    <node x="663.0" y="279.0">ru.myachin.behavioral.strategy.RubberDuck</node>
+    <node x="0.0" y="499.0">ru.myachin.behavioral.strategy.FakeQuack</node>
+    <node x="465.0" y="499.0">ru.myachin.behavioral.strategy.Squeak</node>
+    <node x="0.0" y="696.0">ru.myachin.behavioral.strategy.FlyNoWay</node>
+    <node x="310.0" y="499.0">ru.myachin.behavioral.strategy.Quack</node>
+    <node x="232.5" y="398.0">ru.myachin.behavioral.strategy.QuackBehavior</node>
   </nodes>
   <notes />
   <edges>
-    <edge source="behavioral.strategy.MallardDuck" target="behavioral.strategy.Duck">
+    <edge source="ru.myachin.behavioral.strategy.Squeak" target="ru.myachin.behavioral.strategy.QuackBehavior">
       <point x="0.0" y="-25.5" />
-      <point x="0.0" y="103.0" />
-    </edge>
-    <edge source="behavioral.strategy.FlyNoWay" target="behavioral.strategy.FlyBehavior">
-      <point x="0.0" y="-25.5" />
-      <point x="364.0" y="625.0" />
-      <point x="252.16666666666666" y="625.0" />
-      <point x="38.66666666666666" y="25.5" />
-    </edge>
-    <edge source="behavioral.strategy.RedHeadDuck" target="behavioral.strategy.Duck">
-      <point x="0.0" y="-25.5" />
-      <point x="710.0" y="226.0" />
-      <point x="501.2" y="226.0" />
-      <point x="111.19999999999999" y="103.0" />
-    </edge>
-    <edge source="behavioral.strategy.DecoyDuck" target="behavioral.strategy.Duck">
-      <point x="0.0" y="-25.5" />
-      <point x="550.0" y="236.0" />
-      <point x="445.6" y="236.0" />
-      <point x="55.60000000000002" y="103.0" />
-    </edge>
-    <edge source="behavioral.strategy.Quack" target="behavioral.strategy.QuackBehavior">
-      <point x="0.0" y="-25.5" />
-      <point x="222.5" y="433.0" />
-      <point x="283.125" y="433.0" />
-      <point x="-16.875" y="25.5" />
-    </edge>
-    <edge source="behavioral.strategy.MuteQuack" target="behavioral.strategy.QuackBehavior">
-      <point x="0.0" y="-25.5" />
-      <point x="532.5" y="423.0" />
-      <point x="350.625" y="423.0" />
+      <point x="532.5" y="469.0" />
+      <point x="350.625" y="469.0" />
       <point x="50.625" y="25.5" />
     </edge>
-    <edge source="behavioral.strategy.RubberDuck" target="behavioral.strategy.Duck">
+    <edge source="ru.myachin.behavioral.strategy.FlyNoWay" target="ru.myachin.behavioral.strategy.FlyBehavior">
       <point x="0.0" y="-25.5" />
-      <point x="70.0" y="226.0" />
-      <point x="278.8" y="226.0" />
-      <point x="-111.19999999999999" y="103.0" />
+      <point x="58.0" y="671.0" />
+      <point x="169.83333333333334" y="671.0" />
+      <point x="-38.66666666666666" y="25.5" />
     </edge>
-    <edge source="behavioral.strategy.FlyRocketPowered" target="behavioral.strategy.FlyBehavior">
+    <edge source="ru.myachin.behavioral.strategy.RedHeadDuck" target="ru.myachin.behavioral.strategy.Duck">
+      <point x="0.0" y="-37.0" />
+      <point x="565.5" y="259.0" />
+      <point x="450.1" y="259.0" />
+      <point x="55.60000000000002" y="114.5" />
+    </edge>
+    <edge source="ru.myachin.behavioral.strategy.ModelDuck" target="ru.myachin.behavioral.strategy.Duck">
+      <point x="0.0" y="-37.0" />
+      <point x="70.5" y="249.0" />
+      <point x="283.3" y="249.0" />
+      <point x="-111.19999999999999" y="114.5" />
+    </edge>
+    <edge source="ru.myachin.behavioral.strategy.MuteQuack" target="ru.myachin.behavioral.strategy.QuackBehavior">
+      <point x="0.0" y="-25.5" />
+      <point x="222.5" y="479.0" />
+      <point x="283.125" y="479.0" />
+      <point x="-16.875" y="25.5" />
+    </edge>
+    <edge source="ru.myachin.behavioral.strategy.Quack" target="ru.myachin.behavioral.strategy.QuackBehavior">
+      <point x="0.0" y="-25.5" />
+      <point x="377.5" y="479.0" />
+      <point x="316.875" y="479.0" />
+      <point x="16.875" y="25.5" />
+    </edge>
+    <edge source="ru.myachin.behavioral.strategy.FakeQuack" target="ru.myachin.behavioral.strategy.QuackBehavior">
+      <point x="0.0" y="-25.5" />
+      <point x="67.5" y="469.0" />
+      <point x="249.375" y="469.0" />
+      <point x="-50.625" y="25.5" />
+    </edge>
+    <edge source="ru.myachin.behavioral.strategy.DecoyDuck" target="ru.myachin.behavioral.strategy.Duck">
+      <point x="0.0" y="-37.0" />
+      <point x="231.0" y="259.0" />
+      <point x="338.9" y="259.0" />
+      <point x="-55.60000000000002" y="114.5" />
+    </edge>
+    <edge source="ru.myachin.behavioral.strategy.FlyRocketPowered" target="ru.myachin.behavioral.strategy.FlyBehavior">
       <point x="0.0" y="-25.5" />
       <point x="0.0" y="25.5" />
     </edge>
-    <edge source="behavioral.strategy.Squeak" target="behavioral.strategy.QuackBehavior">
-      <point x="0.0" y="-25.5" />
-      <point x="67.5" y="423.0" />
-      <point x="249.375" y="423.0" />
-      <point x="-50.625" y="25.5" />
+    <edge source="ru.myachin.behavioral.strategy.RubberDuck" target="ru.myachin.behavioral.strategy.Duck">
+      <point x="0.0" y="-37.0" />
+      <point x="735.5" y="249.0" />
+      <point x="505.70000000000005" y="249.0" />
+      <point x="111.20000000000005" y="114.5" />
     </edge>
-    <edge source="behavioral.strategy.ModelDuck" target="behavioral.strategy.Duck">
-      <point x="0.0" y="-25.5" />
-      <point x="230.0" y="236.0" />
-      <point x="334.4" y="236.0" />
-      <point x="-55.60000000000002" y="103.0" />
+    <edge source="ru.myachin.behavioral.strategy.MallardDuck" target="ru.myachin.behavioral.strategy.Duck">
+      <point x="0.0" y="-37.0" />
+      <point x="0.0" y="114.5" />
     </edge>
-    <edge source="behavioral.strategy.FlyWithWings" target="behavioral.strategy.FlyBehavior">
+    <edge source="ru.myachin.behavioral.strategy.FlyWithWings" target="ru.myachin.behavioral.strategy.FlyBehavior">
       <point x="0.0" y="-25.5" />
-      <point x="60.5" y="625.0" />
-      <point x="174.83333333333334" y="625.0" />
-      <point x="-38.66666666666666" y="25.5" />
-    </edge>
-    <edge source="behavioral.strategy.FakeQuack" target="behavioral.strategy.QuackBehavior">
-      <point x="0.0" y="-25.5" />
-      <point x="377.5" y="433.0" />
-      <point x="316.875" y="433.0" />
-      <point x="16.875" y="25.5" />
+      <point x="361.5" y="671.0" />
+      <point x="247.16666666666666" y="671.0" />
+      <point x="38.66666666666666" y="25.5" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="133.5" y="279.5" />
-  <SelectedNodes />
+  <settings layout="Hierarchic Group" zoom="1.0" x="166.5" y="170.5" />
+  <SelectedNodes>
+    <node>ru.myachin.behavioral.strategy.FlyRocketPowered</node>
+    <node>ru.myachin.behavioral.strategy.ModelDuck</node>
+    <node>ru.myachin.behavioral.strategy.FlyWithWings</node>
+    <node>ru.myachin.behavioral.strategy.MallardDuck</node>
+    <node>ru.myachin.behavioral.strategy.Duck</node>
+    <node>ru.myachin.behavioral.strategy.MuteQuack</node>
+    <node>ru.myachin.behavioral.strategy.DecoyDuck</node>
+    <node>ru.myachin.behavioral.strategy.RedHeadDuck</node>
+    <node>ru.myachin.behavioral.strategy.FlyBehavior</node>
+    <node>ru.myachin.behavioral.strategy.RubberDuck</node>
+    <node>ru.myachin.behavioral.strategy.FakeQuack</node>
+    <node>ru.myachin.behavioral.strategy.Squeak</node>
+    <node>ru.myachin.behavioral.strategy.FlyNoWay</node>
+    <node>ru.myachin.behavioral.strategy.Quack</node>
+    <node>ru.myachin.behavioral.strategy.QuackBehavior</node>
+  </SelectedNodes>
   <Categories>
     <Category>Fields</Category>
+    <Category>Constructors</Category>
     <Category>Methods</Category>
   </Categories>
   <SCOPE>All</SCOPE>

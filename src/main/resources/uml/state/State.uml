@@ -1,54 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Diagram>
   <ID>JAVA</ID>
-  <OriginalElement>behavioral.state.SoldOutState</OriginalElement>
+  <OriginalElement>ru.myachin.behavioral.state.SoldOutState</OriginalElement>
   <nodes>
-    <node x="550.0" y="760.0">behavioral.state.NoQuarterState</node>
-    <node x="590.5" y="560.0">behavioral.state.State</node>
-    <node x="1096.0" y="760.0">behavioral.state.WinnerState</node>
-    <node x="273.0" y="749.0">behavioral.state.HasQuarterState</node>
-    <node x="0.0" y="0.0">behavioral.state.GumballMachine</node>
-    <node x="823.0" y="760.0">behavioral.state.SoldState</node>
-    <node x="0.0" y="760.0">behavioral.state.SoldOutState</node>
+    <node x="586.5" y="560.0">ru.myachin.behavioral.state.State</node>
+    <node x="546.0" y="760.0">ru.myachin.behavioral.state.NoQuarterState</node>
+    <node x="273.0" y="760.0">ru.myachin.behavioral.state.SoldState</node>
+    <node x="819.0" y="749.0">ru.myachin.behavioral.state.HasQuarterState</node>
+    <node x="0.0" y="0.0">ru.myachin.behavioral.state.GumballMachine</node>
+    <node x="0.0" y="760.0">ru.myachin.behavioral.state.WinnerState</node>
+    <node x="1096.0" y="760.0">ru.myachin.behavioral.state.SoldOutState</node>
   </nodes>
   <notes />
   <edges>
-    <edge source="behavioral.state.WinnerState" target="behavioral.state.State">
+    <edge source="ru.myachin.behavioral.state.WinnerState" target="ru.myachin.behavioral.state.State">
       <point x="0.0" y="-103.5" />
-      <point x="1222.5" y="719.0" />
-      <point x="745.3" y="719.0" />
-      <point x="68.79999999999995" y="69.5" />
+      <point x="126.5" y="719.0" />
+      <point x="603.7" y="719.0" />
+      <point x="-68.79999999999995" y="69.5" />
     </edge>
-    <edge source="behavioral.state.SoldState" target="behavioral.state.State">
+    <edge source="ru.myachin.behavioral.state.SoldState" target="ru.myachin.behavioral.state.State">
       <point x="0.0" y="-103.5" />
-      <point x="949.5" y="729.0" />
-      <point x="710.9" y="729.0" />
-      <point x="34.39999999999998" y="69.5" />
+      <point x="399.5" y="729.0" />
+      <point x="638.1" y="729.0" />
+      <point x="-34.39999999999998" y="69.5" />
     </edge>
-    <edge source="behavioral.state.NoQuarterState" target="behavioral.state.State">
+    <edge source="ru.myachin.behavioral.state.NoQuarterState" target="ru.myachin.behavioral.state.State">
       <point x="0.0" y="-103.5" />
       <point x="0.0" y="69.5" />
     </edge>
-    <edge source="behavioral.state.HasQuarterState" target="behavioral.state.State">
+    <edge source="ru.myachin.behavioral.state.HasQuarterState" target="ru.myachin.behavioral.state.State">
       <point x="0.0" y="-114.5" />
-      <point x="401.5" y="729.0" />
-      <point x="642.1" y="729.0" />
-      <point x="-34.39999999999998" y="69.5" />
+      <point x="947.5" y="729.0" />
+      <point x="706.9" y="729.0" />
+      <point x="34.39999999999998" y="69.5" />
     </edge>
-    <edge source="behavioral.state.SoldOutState" target="behavioral.state.State">
+    <edge source="ru.myachin.behavioral.state.SoldOutState" target="ru.myachin.behavioral.state.State">
       <point x="0.0" y="-103.5" />
-      <point x="126.5" y="719.0" />
-      <point x="607.7" y="719.0" />
-      <point x="-68.79999999999995" y="69.5" />
+      <point x="1222.5" y="719.0" />
+      <point x="741.3" y="719.0" />
+      <point x="68.79999999999995" y="69.5" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="58.5" y="414.0" />
+  <settings layout="Hierarchic Group" zoom="1.0" x="58.5" y="701.5" />
   <SelectedNodes>
-    <node>behavioral.state.WinnerState</node>
+    <node>ru.myachin.behavioral.state.State</node>
+    <node>ru.myachin.behavioral.state.NoQuarterState</node>
+    <node>ru.myachin.behavioral.state.SoldState</node>
+    <node>ru.myachin.behavioral.state.HasQuarterState</node>
+    <node>ru.myachin.behavioral.state.GumballMachine</node>
+    <node>ru.myachin.behavioral.state.WinnerState</node>
+    <node>ru.myachin.behavioral.state.SoldOutState</node>
   </SelectedNodes>
   <Categories>
-    <Category>Constructors</Category>
     <Category>Fields</Category>
+    <Category>Constructors</Category>
     <Category>Methods</Category>
   </Categories>
   <SCOPE>All</SCOPE>

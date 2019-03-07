@@ -1,90 +1,102 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Diagram>
   <ID>JAVA</ID>
-  <OriginalElement>creational.factorymethod.NYStyleVeggiePizza</OriginalElement>
+  <OriginalElement>ru.myachin.creational.factorymethod.NYStyleCheesePizza</OriginalElement>
   <nodes>
-    <node x="215.0" y="539.0">creational.factorymethod.ChicagoPizzaStore</node>
-    <node x="189.0" y="331.0">creational.factorymethod.NYStyleClamPizza</node>
-    <node x="525.0" y="320.0">creational.factorymethod.ChicagoStyleVeggiePizza</node>
-    <node x="107.5" y="416.0">creational.factorymethod.PizzaStore</node>
-    <node x="351.99999999999994" y="331.0">creational.factorymethod.NYStyleCheesePizza</node>
-    <node x="1333.0" y="331.0">creational.factorymethod.NYStyleVeggiePizza</node>
-    <node x="0.0" y="539.0">creational.factorymethod.NYPizzaStore</node>
-    <node x="724.0" y="320.0">creational.factorymethod.ChicagoStylePepperoniPizza</node>
-    <node x="941.0" y="320.0">creational.factorymethod.ChicagoStyleClamPizza</node>
-    <node x="0.0" y="331.0">creational.factorymethod.NYStylePepperoniPizza</node>
-    <node x="1132.0" y="320.0">creational.factorymethod.ChicagoStyleCheesePizza</node>
-    <node x="612.5" y="0.0">creational.factorymethod.Pizza</node>
+    <node x="850.0" y="320.0">ru.myachin.creational.factorymethod.ChicagoStylePepperoniPizza</node>
+    <node x="0.0" y="331.5">ru.myachin.creational.factorymethod.NYStyleVeggiePizza</node>
+    <node x="424.0" y="331.5">ru.myachin.creational.factorymethod.NYStyleClamPizza</node>
+    <node x="107.5" y="439.0">ru.myachin.creational.factorymethod.PizzaStore</node>
+    <node x="1322.0" y="320.0">ru.myachin.creational.factorymethod.ChicagoStyleCheesePizza</node>
+    <node x="1099.0" y="320.0">ru.myachin.creational.factorymethod.ChicagoStyleClamPizza</node>
+    <node x="0.0" y="562.0">ru.myachin.creational.factorymethod.NYPizzaStore</node>
+    <node x="215.0" y="562.0">ru.myachin.creational.factorymethod.ChicagoPizzaStore</node>
+    <node x="203.0" y="331.5">ru.myachin.creational.factorymethod.NYStylePepperoniPizza</node>
+    <node x="738.5" y="0.0">ru.myachin.creational.factorymethod.Pizza</node>
+    <node x="1555.0" y="331.5">ru.myachin.creational.factorymethod.NYStyleCheesePizza</node>
+    <node x="619.0" y="320.0">ru.myachin.creational.factorymethod.ChicagoStyleVeggiePizza</node>
   </nodes>
   <notes />
   <edges>
-    <edge source="creational.factorymethod.ChicagoStyleClamPizza" target="creational.factorymethod.Pizza">
-      <point x="-5.6843418860808015E-14" y="-25.5" />
-      <point x="1026.5" y="290.0" />
-      <point x="758.25" y="290.0" />
-      <point x="39.75" y="125.0" />
-    </edge>
-    <edge source="creational.factorymethod.ChicagoStyleCheesePizza" target="creational.factorymethod.Pizza">
+    <edge source="ru.myachin.creational.factorymethod.NYPizzaStore" target="ru.myachin.creational.factorymethod.PizzaStore">
       <point x="0.0" y="-25.5" />
-      <point x="1222.5" y="280.0" />
-      <point x="784.75" y="280.0" />
-      <point x="66.25" y="125.0" />
-    </edge>
-    <edge source="creational.factorymethod.NYStylePepperoniPizza" target="creational.factorymethod.Pizza">
-      <point x="0.0" y="-14.5" />
-      <point x="84.5" y="270.0" />
-      <point x="625.75" y="270.0" />
-      <point x="-92.75" y="125.0" />
-    </edge>
-    <edge source="creational.factorymethod.NYStyleCheesePizza" target="creational.factorymethod.Pizza">
-      <point x="0.0" y="-14.5" />
-      <point x="428.49999999999994" y="290.0" />
-      <point x="678.75" y="290.0" />
-      <point x="-39.75" y="125.0" />
-    </edge>
-    <edge source="creational.factorymethod.ChicagoPizzaStore" target="creational.factorymethod.PizzaStore">
-      <point x="0.0" y="-25.5" />
-      <point x="312.5" y="514.0" />
-      <point x="253.75" y="514.0" />
-      <point x="48.75" y="36.5" />
-    </edge>
-    <edge source="creational.factorymethod.NYStyleClamPizza" target="creational.factorymethod.Pizza">
-      <point x="0.0" y="-14.5" />
-      <point x="260.5" y="280.0" />
-      <point x="652.25" y="280.0" />
-      <point x="-66.25" y="125.0" />
-    </edge>
-    <edge source="creational.factorymethod.ChicagoStyleVeggiePizza" target="creational.factorymethod.Pizza">
-      <point x="0.0" y="-25.5" />
-      <point x="614.5" y="300.0" />
-      <point x="705.25" y="300.0" />
-      <point x="-13.25" y="125.0" />
-    </edge>
-    <edge source="creational.factorymethod.NYStyleVeggiePizza" target="creational.factorymethod.Pizza">
-      <point x="0.0" y="-14.5" />
-      <point x="1408.5" y="270.0" />
-      <point x="811.25" y="270.0" />
-      <point x="92.75" y="125.0" />
-    </edge>
-    <edge source="creational.factorymethod.ChicagoStylePepperoniPizza" target="creational.factorymethod.Pizza">
-      <point x="0.0" y="-25.5" />
-      <point x="822.5" y="300.0" />
-      <point x="731.75" y="300.0" />
-      <point x="13.25" y="125.0" />
-    </edge>
-    <edge source="creational.factorymethod.NYPizzaStore" target="creational.factorymethod.PizzaStore">
-      <point x="0.0" y="-25.5" />
-      <point x="97.5" y="514.0" />
-      <point x="156.25" y="514.0" />
+      <point x="97.5" y="537.0" />
+      <point x="156.25" y="537.0" />
       <point x="-48.75" y="36.5" />
     </edge>
+    <edge source="ru.myachin.creational.factorymethod.NYStyleVeggiePizza" target="ru.myachin.creational.factorymethod.Pizza">
+      <point x="0.0" y="-25.5" />
+      <point x="91.5" y="270.0" />
+      <point x="751.75" y="270.0" />
+      <point x="-92.75" y="125.0" />
+    </edge>
+    <edge source="ru.myachin.creational.factorymethod.NYStyleClamPizza" target="ru.myachin.creational.factorymethod.Pizza">
+      <point x="0.0" y="-25.5" />
+      <point x="511.5" y="290.0" />
+      <point x="804.75" y="290.0" />
+      <point x="-39.75" y="125.0" />
+    </edge>
+    <edge source="ru.myachin.creational.factorymethod.ChicagoStyleClamPizza" target="ru.myachin.creational.factorymethod.Pizza">
+      <point x="0.0" y="-37.0" />
+      <point x="1200.5" y="290.0" />
+      <point x="884.25" y="290.0" />
+      <point x="39.75" y="125.0" />
+    </edge>
+    <edge source="ru.myachin.creational.factorymethod.ChicagoStyleVeggiePizza" target="ru.myachin.creational.factorymethod.Pizza">
+      <point x="0.0" y="-37.0" />
+      <point x="724.5" y="300.0" />
+      <point x="831.25" y="300.0" />
+      <point x="-13.25" y="125.0" />
+    </edge>
+    <edge source="ru.myachin.creational.factorymethod.NYStylePepperoniPizza" target="ru.myachin.creational.factorymethod.Pizza">
+      <point x="0.0" y="-25.5" />
+      <point x="303.5" y="280.0" />
+      <point x="778.25" y="280.0" />
+      <point x="-66.25" y="125.0" />
+    </edge>
+    <edge source="ru.myachin.creational.factorymethod.NYStyleCheesePizza" target="ru.myachin.creational.factorymethod.Pizza">
+      <point x="0.0" y="-25.5" />
+      <point x="1647.5" y="270.0" />
+      <point x="937.25" y="270.0" />
+      <point x="92.75" y="125.0" />
+    </edge>
+    <edge source="ru.myachin.creational.factorymethod.ChicagoStylePepperoniPizza" target="ru.myachin.creational.factorymethod.Pizza">
+      <point x="0.0" y="-37.0" />
+      <point x="964.5" y="300.0" />
+      <point x="857.75" y="300.0" />
+      <point x="13.25" y="125.0" />
+    </edge>
+    <edge source="ru.myachin.creational.factorymethod.ChicagoPizzaStore" target="ru.myachin.creational.factorymethod.PizzaStore">
+      <point x="0.0" y="-25.5" />
+      <point x="312.5" y="537.0" />
+      <point x="253.75" y="537.0" />
+      <point x="48.75" y="36.5" />
+    </edge>
+    <edge source="ru.myachin.creational.factorymethod.ChicagoStyleCheesePizza" target="ru.myachin.creational.factorymethod.Pizza">
+      <point x="0.0" y="-37.0" />
+      <point x="1428.5" y="280.0" />
+      <point x="910.75" y="280.0" />
+      <point x="66.25" y="125.0" />
+    </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="541.5" y="168.5" />
+  <settings layout="Hierarchic Group" zoom="1.0" x="844.5" y="290.5" />
   <SelectedNodes>
-    <node>creational.factorymethod.Pizza</node>
+    <node>ru.myachin.creational.factorymethod.PizzaStore</node>
+    <node>ru.myachin.creational.factorymethod.ChicagoStyleCheesePizza</node>
+    <node>ru.myachin.creational.factorymethod.ChicagoStylePepperoniPizza</node>
+    <node>ru.myachin.creational.factorymethod.ChicagoStyleClamPizza</node>
+    <node>ru.myachin.creational.factorymethod.NYPizzaStore</node>
+    <node>ru.myachin.creational.factorymethod.ChicagoPizzaStore</node>
+    <node>ru.myachin.creational.factorymethod.NYStyleVeggiePizza</node>
+    <node>ru.myachin.creational.factorymethod.NYStylePepperoniPizza</node>
+    <node>ru.myachin.creational.factorymethod.Pizza</node>
+    <node>ru.myachin.creational.factorymethod.NYStyleClamPizza</node>
+    <node>ru.myachin.creational.factorymethod.NYStyleCheesePizza</node>
+    <node>ru.myachin.creational.factorymethod.ChicagoStyleVeggiePizza</node>
   </SelectedNodes>
   <Categories>
     <Category>Fields</Category>
+    <Category>Constructors</Category>
     <Category>Methods</Category>
   </Categories>
   <SCOPE>All</SCOPE>
